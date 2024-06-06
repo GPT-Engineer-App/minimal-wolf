@@ -19,7 +19,7 @@ function Products() {
       </Heading>
       <SimpleGrid columns={2} spacing={10}>
         {products.map((product, index) => (
-          <Box key={index} p={5} shadow="md" borderWidth="1px" borderRadius="20px">
+          <Box key={index} p={5} shadow="md" borderRadius="20px">
             <Heading fontSize="xl">{product.title}</Heading>
             <Text mt={4}>{product.description}</Text>
           </Box>
