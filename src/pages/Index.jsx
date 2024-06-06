@@ -12,7 +12,7 @@ const Index = () => {
         <Text fontSize="lg" textAlign="center">
           Empowering your business with cutting-edge technology solutions. Join us and unleash your potential.
         </Text>
-        <Button colorScheme="teal" size="lg">
+        <Button colorScheme="teal" size="lg" onClick={() => (window.location.href = "/products")}>
           Get Started
         </Button>
         <HStack spacing={4}>
